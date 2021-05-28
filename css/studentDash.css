@@ -1,0 +1,65 @@
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+body { background-image: url(../image/clock.jpg); }
+
+
+
+.navbar { 
+  background-color: #1a1a1a !important ; 
+  width: calc(100% - 30px) !important; 
+  margin: 15px auto !important;
+  box-shadow: 0 0 30px 10px black;
+
+}
+nav .navbar-brand { color: #4CAF50 !important;}
+nav .head1 { width: 30% !important; }
+nav .head2 { width: 70% !important; }
+nav .sform { width: 0; height: 0;}
+nav .nav-item { margin-left: 40px; }
+nav .go { margin-left: 30px; }
+nav .go:hover { background-color:#4CAF50; border: 1px solid white !important;}
+nav .logout { 
+     left: 360px;
+     top: 20px;
+     position: relative;
+     border: 1px solid #ff2121;
+     color: #ff2121;
+ }
+nav .logout:hover { background-color:#ff2121; color: #1a1a1a; }
+nav .link {color: #4CAF50 !important;}
+nav .link:hover { color: white !important;}
+.navbar-brand { color: white !important;}
+
+.container {
+     width: 80%;
+     margin: 0 auto;
+     height: 550px;
+     box-shadow: 0 0 30px 10px black;
+     padding: 50px;
+     background-image: url(../image/staff.jpg); background-size: cover;
+     color: white;
+}
+
+.container h1 {background-color: #1a1a1a; text-align: center; width: 50%; margin: 0 auto; 
+     box-shadow: 0 0 20px 3px #4CAF50;
+     padding: 10px; color: #4CAF50; border-radius: 5px; margin-bottom: 15px;
+}
+.marksTable   { background-color: #1a1a1a; width: 70%; float: left; height: 360px; padding: 20px; }
+.notification { background-color: #1a1a1a; width: 30%; float: right; height: 360px; text-align: center; padding: 20px;}
+
+.marksTable table {
+     border: 1px solid white;
+     width: 100%;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: bold;
+}
+table td, th {border: 1px solid white;}
+table th {  color: #ff2121; }
+table tr{  height: calc((360px - 40px) / 5);}
+table tr .avg {  color: #4CAF50; }
+
+.notification h3 { padding: 5px; background-color: #ff2121; border-radius: 5px;}
+.notification h4 { background-color: white; color: #ff2121; padding: 3px; font-size: 15px; border-radius: 5px;}
+.notification h4 span { background-color: #1a1a1a; color: #ff2121; font-weight: bold; border-radius: 5px;}
+.main { box-shadow: 0 0 20px 2px #ff2121;height: 360px;}

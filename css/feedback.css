@@ -1,0 +1,23 @@
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+.container {
+     width: 80%;
+     margin: 0 auto;
+     height: 550px;
+     box-shadow: 0 0 30px 10px black;
+     padding: 50px;
+     background-image: url(../image/staff.jpg); background-size: cover;
+     text-align: center;
+}
+
+
+.feedback {
+     color: #ff2121;
+     background-color: #1a1a1a;
+     width: 60%;
+     margin: 180px auto;
+     height: 100px;
+     line-height: 100px;
+     box-shadow: 0 0 30px 10px #4CAF50;
+
+}
+.feedback span { color: #4CAF50;}

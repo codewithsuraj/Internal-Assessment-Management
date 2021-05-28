@@ -1,0 +1,63 @@
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+.createUsers { 
+     background-color: green;
+     height: 550px;
+     width: 80%;
+     margin: 0 auto;
+     box-shadow: 0 0 30px 10px black;
+
+}
+.createStaff{
+     background-color: #4CAF50;
+     
+}
+.createStaff input,  .createStudent input , .createStudent select{display: block;}
+.createStudent{ background-color: #1a1a1a;}
+
+.heading{
+     margin: 50px 0;
+}
+.headint-staff { color: #4CAF50;}
+.createBtn {
+     background-color: #1a1a1a;
+     border: none;
+     width: 200px;
+     border-radius: 3px;
+     margin-bottom: 10px;
+     color: #4CAF50;
+     font-size: 22px;
+     border: 1px solid #4CAF50;
+     cursor: pointer;
+}
+
+.screate {
+     border: 1px solid #1a1a1a;
+     background-color: #4CAF50;
+     color: #1a1a1a;
+}
+
+.user {
+     width: 200px;
+     height: 40px;
+     padding: 5px;
+     margin-bottom: 15px;
+     border: 1px solid black;
+     border-radius: 5px;
+}
+
+.staffLink:hover, .studentLink:hover{ text-decoration: none; color: white;}
+.studentLink:hover{ text-decoration: none;}
+.staffLink, .studentLink{ 
+     background-color: red;
+     padding: 4px 10px;
+     border-radius: 5px;
+}
+
+.staffLink {
+     background-color: #1a1a1a;
+     color: #4CAF50;
+}
+.studentLink {
+     background-color: #4CAF50;
+     color: #1a1a1a;
+}

@@ -1,0 +1,11 @@
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+.container {  padding: 10px;}
+.inputField{width: 100%;}
+.updateProfile{text-align: left;}
+.main1{width: 30%; margin: 0 auto ; }
+.shead h4{ 
+     color: #4CAF50;
+     font-size: 25px;
+     margin-bottom: 0;
+}
+

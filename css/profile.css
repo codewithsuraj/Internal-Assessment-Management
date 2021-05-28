@@ -1,0 +1,21 @@
+
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+
+.container{
+     width: 80%; margin: 0 auto ; 
+     height: 550px;
+     box-shadow: 0 0 30px 10px black;
+     padding:50px;
+     background-image: url(../image/staff.jpg); background-size: cover;
+}
+
+.container .fa-edit {color: #ff2121;}
+
+.container .head1 {
+     color: #4CAF50;
+     font-size: 30px;
+     margin-bottom: 50px;
+}
+.main{width: 60%; margin: 0 auto ; }
+.inputField{width: 50%;}
+.shead h4{ color: #4CAF50; }

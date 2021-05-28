@@ -1,0 +1,47 @@
+* { font-family: sans-serif; outline: none ; box-sizing: border-box;}
+body { background-image: url(../image/clock.jpg); }
+.form-gap { padding-top: 70px; }
+
+.panel-body{
+     background-color: #1a1a1a;
+     color: #4CAF50;
+     box-shadow: 0 0 77px 8px black;
+
+}
+
+
+.inputField:focus {
+     box-shadow: 0 0 10px 0px black inset;
+     border: none;
+
+}
+
+.subbtn {
+     background-color: #4CAF50;
+     border: none;
+
+
+}
+.subbtn:focus{ border: none;}
+.subbtn:hover {
+     background-color: #4CAF50;
+     opacity: 0.9;
+}
+
+.error { 
+     color: #ff2121;
+     font-size: 20px;
+     position: absolute;
+     top: 480px;;
+     left: 590px;
+}
+a:hover { text-decoration: none; color: white;}
+
+.backbtn {
+     color: #4CAF50;
+     font-size: 20px;
+     float: right;
+     padding: 1px 12px;
+     border-radius: 4px;
+
+}

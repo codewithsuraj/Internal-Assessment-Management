@@ -1,0 +1,127 @@
+*{ font-family: sans-serif; box-sizing: border-box; outline: none;}
+
+
+.row2::-webkit-scrollbar {
+     display: none;
+   }
+   
+
+.row2 { 
+     overflow-y: scroll; height: 500px;
+     background-color:#1a1a1a;
+     padding: 15px;
+}
+.listofusn::-webkit-scrollbar {
+     display: none;
+   }
+   
+.listofusn {
+     overflow-y: scroll;
+     height: 435px;
+}
+
+
+.srow2 { 
+     height: 500px;
+     background-color:#1a1a1a;
+     padding: 15px;
+}
+.staffList {
+     background-color: #1a1a1a;
+     width: 50%;
+     height: 550px;
+     margin: 0 auto;
+     box-shadow: 0 0 30px 10px black;
+
+}
+
+.staffList .row1 {
+     background-color: #4CAF50;
+     width: 100%;
+     height: 50px;
+     line-height: 50px;
+     font-size: 30px;
+     font-weight: bold;
+}
+
+.row2 .nstaffs {
+     width: 60%;
+     border: 1px solid white;
+     background-color: #4CAF50;
+     border-radius: 3px;
+
+}
+.srow2 .nstaffs {
+     background-color: yellow;
+     width: 60%;
+     border: 1px solid white;
+     background-color: #4CAF50;
+     border-radius: 3px;
+
+}
+.nstaffs .editField {
+     width: 200px;
+     height: 30px;
+     background-color: #4CAF50;
+     border: none;
+     border: 1px solid black;
+     border-radius: 3px;
+}
+
+
+.nstaffs { 
+     text-transform: uppercase;
+     font-size: 30px;
+     margin-bottom: 5px;
+}
+
+.nstaffs form {
+     display: inline-block;
+}
+
+#editBtn {
+     cursor: pointer;
+     color: white;
+}
+#editBtn:hover {  color: black;}
+
+.leditBtn input, .deleteBtn input{
+     background-color: transparent;
+     position: relative;
+     right: 30px;
+     top: 6px;
+     width: 30px;
+     border: none;
+     cursor: pointer;
+ }
+ .deleteBtn{ color: #ff2121; }
+ .deleteBtn:hover{ color: black; }
+ .leditBtn { color: white;}
+ .leditBtn:hover { color: black;}
+
+ .selecting {
+     border: 1px sold white;
+     width: 60%;
+     border: 1px solid white;
+     border-radius: 3px;
+     display: inline-flex;
+     margin-bottom: 10px;
+ }
+
+ .selector1 select{width: 170px;}
+ .selector2 select{width: 130px;}
+ .selector3 {
+     width: 100px;
+     background-color: #1a1a1a;
+     border: none;
+     color: #4CAF50;
+     font-size: 23px;
+     padding: 0;
+     font-weight: bolder;
+     cursor: pointer;
+}
+.selector3:hover {
+     color: white;
+     background-color: #4CAF50;
+
+}

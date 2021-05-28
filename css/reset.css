@@ -1,0 +1,68 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     outline: none;
+}
+
+body { background-image: url(../image/clock.jpg); }
+
+.container{
+     background-color: #1a1a1a;
+     border-radius: 10px;
+     width: 45%;
+     height: 400px;
+     padding: 25px;
+     margin: auto auto;
+     margin-top: 140px;
+     box-shadow: 0 0 77px 8px black;
+}
+
+.container h1 {
+     color: #4CAF50;
+     margin-bottom: 30px;
+     text-align: center;
+}
+
+.input {
+     border-radius: 5px;
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     margin-bottom: 20px;
+}
+
+.inputField:focus {
+     box-shadow: 0 0 10px 0px black inset;
+     border: none;
+
+}
+
+.inputSub{
+     background-color: #4CAF50;
+     border-radius: 5px;
+     color: white;
+     padding: 5px 20px;
+     margin: 50px 0;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     font-size: 30px;
+}
+
+
+.inputSub:hover { opacity: 0.9; }
+
+.error { 
+     color: #ff2121;
+     font-size: 20px;
+     position: absolute;
+     top: 480px;;
+     left: 545px;
+}
+
+
